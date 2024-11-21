@@ -7,7 +7,7 @@
 get_header();
 ?>
 <div class="content">
-    <h2><?php echo filemtime(get_template_directory().'/style.css') ?></h2>
+    <h2>Hello dear world</h2>
 </div>
 
 <?php 
