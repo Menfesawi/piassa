@@ -5,10 +5,13 @@
  */
 
 get_header();
+            // spl_autoload_register(function($class){
+            //     include 'classes/' . $class . '.php';
+            // });
 ?>
 <div class="content">
-    <h2>Hello dear world</h2>
+    <h2><?php echo 'Hello, World' ?></h2>
 </div>
 
-<?php 
+<?php
 get_footer();
